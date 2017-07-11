@@ -54,3 +54,8 @@ messageField.placeholder = 'State your business'
 
 nameField = document.querySelector('input#name.contact-info')
 nameField.value = 'Your nemesis'
+
+11. Change the value attribute of the email field to "koalathebear@gmail.com".
+
+emailField = document.querySelector('input#email.contact-info')
+emailField.value = 'koalathebear@gmail.com'
