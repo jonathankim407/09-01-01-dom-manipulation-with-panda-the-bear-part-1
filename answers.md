@@ -34,3 +34,8 @@ highlight.forEach(function(item) {item.style.color = 'blue'})
 
 heading = document.querySelectorAll('h1')
 heading.forEach(function(item) {item.style.fontFamily = 'monospace'})
+
+7. Find a way to select the round icons in the sidebar and then change their colour.
+
+icon = document.querySelectorAll('a.action-icon-bg')
+icon.forEach(function(item) {item.style.backgroundColor = 'red'})
