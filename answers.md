@@ -59,3 +59,8 @@ nameField.value = 'Your nemesis'
 
 emailField = document.querySelector('input#email.contact-info')
 emailField.value = 'koalathebear@gmail.com'
+
+12. Change the value of the submit button on the contact form to "En garde!".
+
+submitButton = document.querySelector('input#submit')
+submitButton.value = 'En garde!'
