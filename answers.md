@@ -69,3 +69,8 @@ submitButton.value = 'En garde!'
 
 submitButton = document.querySelector('input#submit')
 submitButton.disabled = true
+
+14. We should help Panda protect their privacy by clearing their personal details from the sidebar. You can use reset() to do this.
+
+privacy = document.querySelector('form')
+privacy.reset()
