@@ -44,3 +44,8 @@ icon.forEach(function(item) {item.style.backgroundColor = 'red'})
 
 nameField = document.querySelector('input#name.contact-info')
 nameField.placeholder = 'Identify yourself'
+
+9. Change the placeholder attribute of the message field to "state your business".
+
+messageField = document.querySelector('textarea#message')
+messageField.placeholder = 'State your business'
