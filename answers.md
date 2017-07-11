@@ -19,3 +19,8 @@ heading.innerText = 'Jonathan Kim'
 
 employment = document.querySelector('#employment h3.info-title')
 employment.innerText = 'Funemployment'
+
+4. Change the colour of the body.
+
+body = document.querySelector('body')
+body.style.backgroundColor = 'red'
