@@ -39,3 +39,8 @@ heading.forEach(function(item) {item.style.fontFamily = 'monospace'})
 
 icon = document.querySelectorAll('a.action-icon-bg')
 icon.forEach(function(item) {item.style.backgroundColor = 'red'})
+
+8. Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
+
+nameField = document.querySelector('input#name.contact-info')
+nameField.placeholder = 'Identify yourself'
