@@ -49,3 +49,8 @@ nameField.placeholder = 'Identify yourself'
 
 messageField = document.querySelector('textarea#message')
 messageField.placeholder = 'State your business'
+
+10. Give the name field a "value" attribute of "your nemesis".
+
+nameField = document.querySelector('input#name.contact-info')
+nameField.value = 'Your nemesis'
