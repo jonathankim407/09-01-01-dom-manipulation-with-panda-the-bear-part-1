@@ -14,3 +14,8 @@ sky.src = "images/pikachu-drawing.jpg"
 
 heading = document.querySelector('h1.highlight')
 heading.innerText = 'Jonathan Kim'
+
+3. Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector)
+
+employment = document.querySelector('#employment h3.info-title')
+employment.innerText = 'Funemployment'
