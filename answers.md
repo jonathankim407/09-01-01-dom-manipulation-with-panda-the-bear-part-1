@@ -29,3 +29,8 @@ body.style.backgroundColor = 'red'
 
 highlight = document.querySelectorAll('.highlight')
 highlight.forEach(function(item) {item.style.color = 'blue'})
+
+6. Change the font family of the h1 to 'monospace'.
+
+heading = document.querySelectorAll('h1')
+heading.forEach(function(item) {item.style.fontFamily = 'monospace'})
