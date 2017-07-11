@@ -24,3 +24,8 @@ employment.innerText = 'Funemployment'
 
 body = document.querySelector('body')
 body.style.backgroundColor = 'red'
+
+5. Change the colour used by the highlight class.
+
+highlight = document.querySelectorAll('.highlight')
+highlight.forEach(function(item) {item.style.color = 'blue'})
